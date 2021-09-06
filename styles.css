@@ -1,10 +1,19 @@
-h1{
-  color: red;
-}
-.navbar-brand{
-  padding-left: 25px;
+h1 {
+    color: red;
 }
 
-#navbarNavDropdown{
-  padding-right: 25px;
+.navbar-brand {
+    padding-left: 25px;
+}
+
+#navbarNavDropdown {
+    padding-right: 25px;
+}
+
+input {
+    width: 400px;
+}
+
+select {
+    width: 400px;
 }
