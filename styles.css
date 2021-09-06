@@ -12,6 +12,7 @@ h1 {
 
 input {
     width: 400px;
+    padding-left: 5px;
 }
 
 select {
