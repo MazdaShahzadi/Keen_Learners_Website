@@ -1,37 +1,50 @@
 h1 {
-    color: red;
+  color: #000;
 }
 
 .navbar-brand {
-    padding-left: 25px;
+  padding-left: 25px;
 }
 
 #navbarNavDropdown {
-    padding-right: 25px;
+  padding-right: 25px;
 }
-
 
 /*Hee Gene Style*/
 
 input {
-    width: 400px;
-    padding-left: 5px;
+  width: 400px;
+  padding-left: 5px;
 }
 
 select {
-    width: 400px;
+  width: 400px;
 }
 
 .container {
-    padding: 50px 100px;
+  padding: 50px 100px;
 }
 
 #submit {
-    background-color: #16C79A;
-    color: white;
-    width: 100px;
+  background-color: #16c79a;
+  color: white;
+  width: 100px;
 }
 
 #contact-heading {
-    color: #19456B;
+  color: #19456b;
+}
+.jumbotron {
+  background: url("2.jpg") no-repeat center;
+  height: 225px;
+}
+.btn-primary {
+  background-color: #19456b;
+  border-color: #c60063;
+}
+#hook {
+  color: #fff;
+}
+#hook_message {
+  color: #fff;
 }
