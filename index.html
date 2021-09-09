@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Tree Blue website</title>
-    <link rel="stylesheet" href="styles.css" />
+
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -10,6 +10,7 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -76,20 +77,73 @@
       </div>
     </header>
 
-    <div class="div1">
-      <p>first section</p>
-    </div>
-    <div class="div2">
-      <p>Second section</p>
-    </div>
-    <div class="div3">
-      <p>Second section</p>
-    </div>
-    <div class="div4">
-      <p>Second section</p>
-    </div>
-    <div>
-      <p>Footer stuff</p>
+    <div class="container-fluid">
+      <div class="div1">
+        <p>first section</p>
+      </div>
+      <div class="div2">
+        <p>Second section</p>
+      </div>
+      <div class="products">
+        <h1 class="text-center">Products & Services</h1>
+        <div class="row product-items">
+          <div class="col product-left">
+            <p>
+              TreeBlue provides a unique and holistic data-driven solution to
+              monitor urban trees. The solution includes IoT sensor, dy- namic
+              tree register cloud platform, App as well as associated services
+              (installation, training, customisation, API integration to other
+              services, shareable data with the community.
+            </p>
+            <p>
+              The App is used for registering Tree and IoT sensor in the field
+              by arborists or/and managing jobs of maintenance contractors.
+            </p>
+          </div>
+          <div class="col">
+            <img src="./images/map_isometric.svg" alt="map" />
+          </div>
+        </div>
+      </div>
+      <div class="monitoring">
+        <h1 class="text-center">Products & Services</h1>
+        <div class="row monitoring-items">
+          <div class="monitoring-cards">
+            <img src="./images/monitor.png" alt="monitor" />
+            <p>
+              IoT sensor connecting to a wireless network, monitoring soil
+              moisture, oxygen and temperature.
+            </p>
+          </div>
+          <div class="monitoring-cards">
+            <img src="./images/wifi_signal.png" alt="wifi signal" />
+            <p>
+              Dynamic Tree Register cloud platform that monitors all connected
+              trees.
+            </p>
+          </div>
+          <div class="monitoring-cards">
+            <img src="./images/ai.png" alt="ai robot" />
+            <p>
+              AI predictive & prescriptive support for more efficient
+              maintenance, fertilising and watering.
+            </p>
+          </div>
+          <div class="monitoring-cards">
+            <img src="./images/map_location.png" alt="map location" />
+            <p>
+              Integration of satellite imagery, dynamic soil data and weather
+              forecast for more precise prescriptions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="div4">
+        <p>Second section</p>
+      </div>
+      <div>
+        <p>Footer stuff</p>
+      </div>
     </div>
   </body>
 </html>

@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: size 16px;
+}
+
 h1 {
   color: #000;
 }
@@ -47,4 +54,59 @@ select {
 }
 #hook_message {
   color: #fff;
+}
+
+/* Product Section */
+
+.products {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-items img {
+  width: 100%;
+}
+
+/* Monitoring */
+.monitoring {
+  width: 70%;
+  margin: 0 auto;
+}
+.monitoring-items {
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.monitoring-cards {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: #000 solid 1px;
+  position: relative;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.monitoring-cards img {
+  width: 100px;
+}
+
+.monitoring-cards p {
+  margin-top: 10px;
 }
