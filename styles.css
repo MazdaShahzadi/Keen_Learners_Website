@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font: size 16px;
 }
-
+a { 
+  color: #fff;;
+}
 h1 {
   color: #000;
 }
@@ -110,4 +112,13 @@ select {
 
 .monitoring-cards p {
   margin-top: 10px;
+}
+
+#footer{
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.list-unstyled.li.a {
+  color: #fff;
 }
