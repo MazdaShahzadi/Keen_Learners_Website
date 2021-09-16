@@ -46,6 +46,7 @@ select {
 .jumbotron {
   background: url("2.jpg") no-repeat center;
   height: 225px;
+  opacity: 0.75;
 }
 .btn-primary {
   background-color: #19456b;
